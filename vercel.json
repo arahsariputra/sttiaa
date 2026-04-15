@@ -1,9 +1,12 @@
 {
-  "redirects": [
+  "routes": [
     {
-      "source": "/",
-      "destination": "https://hesustyakurnadiportofolio.my.canva.site/seminarsttiaa",
-      "permanent": true
+      "src": "/",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
     }
   ]
 }
